@@ -204,6 +204,7 @@ nav a:hover {
     transform: translateY(-3px);
     box-shadow: 0 0 12px #00f7ff
 }
+
 .projects {
     padding: 60px 10%;
     background: radial-gradient(elipse, #00f7ff44, transparent 60%);
@@ -226,6 +227,7 @@ nav a:hover {
     padding: 30px;
     border-radius: 15px;
     max-width: 600px;
+    text-align: center;
     transition: 0.4s;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
 }
@@ -254,6 +256,7 @@ nav a:hover {
     font-style: italic;
     color: #94a3b8;
 }
+
 .section {
     padding: 90px 10%
 }
@@ -318,6 +321,7 @@ nav a:hover {
     background: #aef838;
     color: black;
 }
+
 .c {
     display: grid;
     /* grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -408,10 +412,20 @@ nav a:hover {
 
 footer {
     text-align: center;
-   padding: 26px;
+    padding: 26px;
     background: #07141b
 }
-
+h1 {
+    text-align: center;
+    text-shadow: #00aaff;
+}
+h3 div {
+    text-align:center;
+    font-style: italic;
+}
+a{
+    text-align: center;
+}
 /* Animations */
 @keyframes float {
 
